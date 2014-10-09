@@ -18,4 +18,8 @@ public class AddressBook {
 	{
 		buddies.remove(buddy);
 	}
+	public ArrayList<BuddyInfo> getBuddies()
+	{
+		return (ArrayList<BuddyInfo>) buddies;
+	}
 }
